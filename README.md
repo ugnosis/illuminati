@@ -1,5 +1,3 @@
-# illuminati
-
 We track the illuminati.
 
 Welcoming contributions.
