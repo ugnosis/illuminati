@@ -1,5 +1,6 @@
 # illuminati
 
-We track the Illuminati.
+We track the illuminati.
+Welcoming contributions.
 
 Database written in SQLite.
