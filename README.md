@@ -1,5 +1,5 @@
-## We track the illuminati.
+We track the illuminati.
 
-## Welcoming contributions.
+Welcoming contributions.
 
-## Database written in SQLite.
+Database written in SQLite.
