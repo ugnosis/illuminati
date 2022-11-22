@@ -8,4 +8,3 @@ The Plan
 
 Technical Plan
 * Social graph will be stored as a set of nodes and a set of relationships between the nodes. See wiki for more ideas.
-* 
