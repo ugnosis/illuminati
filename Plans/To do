@@ -4,3 +4,5 @@ create government table
 create funding relationships table
 add some laws
 
+guideline:
+only create tables when able to exhaustively fill
