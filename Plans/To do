@@ -2,7 +2,7 @@ create gui
 Create education table with degree and year of graduation
 create government table
 create funding relationships table
-add some laws
+create laws table
 
 guideline:
 only create tables when able to exhaustively fill
