@@ -3,6 +3,7 @@ Create education table with degree and year of graduation
 create government table
 create funding relationships table
 create laws table
+create locations table with current location, city of birth, etc.
 
 guideline:
 only create tables when able to exhaustively fill
