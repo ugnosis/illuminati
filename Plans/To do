@@ -1,4 +1,6 @@
 create gui 
 Create education table with degree and year of graduation
+create government table
+create funding relationships table
 add some laws
-add funding relationships
+
