@@ -2,7 +2,7 @@
 
 ## Usage
 
-To serve this (web) application, run the following shell commands inside
+To serve this web application, run the following shell commands inside
 `illuminati/gui`:
 
 ```sh
@@ -11,6 +11,8 @@ npm install
 # server web application
 npm run serve
 ```
+
+Then to stop the web application, type `ctrl-c` in the same shell.
 
 ## Organization
 
