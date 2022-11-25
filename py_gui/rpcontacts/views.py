@@ -19,8 +19,8 @@ class Window(QMainWindow):
     def __init__(self, parent=None):
         """Initializer."""
         super().__init__(parent)
-        self.setWindowTitle("RP Contacts")
-        self.resize(550, 250)
+        self.setWindowTitle("Python GUI")
+        self.resize(900, 700)
         self.centralWidget = QWidget()
         self.setCentralWidget(self.centralWidget)
         self.layout = QHBoxLayout()
@@ -38,15 +38,9 @@ class Window(QMainWindow):
         #self.table.setSelectionBehavior(QAbstractItemView.SelectRows)
        
         self.table.resizeColumnsToContents()
-        # Create buttons
-        self.addButton = QPushButton("Add...")
-        self.deleteButton = QPushButton("Delete")
-        self.clearAllButton = QPushButton("Clear All")
+
         # Lay out the GUI
         layout = QVBoxLayout()
-        layout.addWidget(self.addButton)
-        layout.addWidget(self.deleteButton)
         layout.addStretch()
-        layout.addWidget(self.clearAllButton)
         self.layout.addWidget(self.table)
         self.layout.addLayout(layout)

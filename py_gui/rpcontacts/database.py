@@ -14,7 +14,7 @@ def createConnection(databaseName):
     if not connection.open():
         QMessageBox.warning(
             None,
-            "RP Contact",
+            "python gui",
             f"Database Error: {connection.lastError().text()}",
         )
         return False
