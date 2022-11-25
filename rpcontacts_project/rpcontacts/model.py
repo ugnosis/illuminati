@@ -14,7 +14,7 @@ class ContactsModel:
     def _createModel():
         """Create and set up the model."""
         tableModel = QSqlTableModel()
-        tableModel.setTable("illuminati.city")
+        tableModel.setTable("city")
 
         #tableModel.setEditStrategy(QSqlTableModel.OnFieldChange)
 
