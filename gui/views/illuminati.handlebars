@@ -1,0 +1,24 @@
+<link rel="stylesheet" type="text/css" href="./static/css/illuminati.css" />
+
+<script>
+    function toggle_hidden(indicator_open_id, indicator_closed_id, target_id) {
+        document.getElementById(indicator_open_id).classList.toggle("hidden")
+        document.getElementById(indicator_closed_id).classList.toggle("hidden")
+        document.getElementById(target_id).classList.toggle("hidden")
+    }
+</script>
+
+<body>
+    <h1>⃤Illuminati</h1>
+    <div class="data-table-container">
+        <button id="data-table-person-title" class="data-table-title"
+            onclick="toggle_hidden('data-table-person-indicator-open', 'data-table-person-indicator-closed', 'data-table-person')">
+            <span id="data-table-person-indicator-open" class="data-table-indicator">▼</span><span
+                id="data-table-person-indicator-closed" class="data-table-indicator hidden">▶</span> Person
+        </button>
+        <div id="data-table-person" class="data-table"></div>
+    </div>
+
+</body>
+
+<script type="module" src="./static/js/illuminati.js"></script>
