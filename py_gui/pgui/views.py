@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 """This module provides views to manage the contacts table."""
 
 from PyQt6.QtWidgets import (

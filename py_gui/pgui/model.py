@@ -15,6 +15,7 @@ class ContactsModel:
         """Create and set up the model."""
         tableModel = QSqlTableModel()
         tableModel.setTable("city")
+        tableModel.setTable("university")
 
         #tableModel.setEditStrategy(QSqlTableModel.OnFieldChange)
 
